@@ -1,0 +1,40 @@
+Installation of MongoDB in OS
+
+1) Install MongoDB from website.
+2) Open control panel and go to services enable mongodb running services.
+3) Open MongoDB.exe
+
+For creating MongoDB database simply write
+
+use <database-name>
+use MongoDBEmployee   ; which switches to db
+
+To check the databases simply write
+
+show dbs
+
+For creating collections simply write
+
+db.createCollection("<collection-name>");
+
+For inserting records or documents
+
+db.<collection-name>.insertOne({name : 'Poorvi Hebbar', company:'Goldman Sachs');
+db.<collection-name>.insert({name : 'Nitin', company:'Google Inc');
+
+For display the records
+
+db.<collection-name>.find();
+db.<collection-name>.findAll();
+
+
+For installing mongodb in Visual Studio
+
+npm install mongodb --save
+npm install moongose --save
+
+
+
+
+
+
