@@ -1,6 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import useAsyncRequest from './useAsyncRequest';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+export { useAsyncRequest };
