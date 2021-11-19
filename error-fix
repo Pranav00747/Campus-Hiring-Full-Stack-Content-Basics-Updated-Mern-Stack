@@ -1,0 +1,11 @@
+If any error while importing
+
+Copy all files from components folder to main 
+
+import './<file-name>' instead of import './components/<file-name>'
+
+If any error for post and get request
+npm install cors
+npm install axios
+yarn add axios
+npm install body-parser
