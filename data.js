@@ -1,13 +1,13 @@
 const userList = [
     {
         id: 1,
-        name: 'Ridhhi',
-        username: 'Amazon'
+        name: 'Tuhin Mukherjee',
+        username: 'Google SWE II London'
     },
     {
         id: 2,
-        name: 'Sahil',
-        username: 'Tower Research'
+        name: 'Rohit Negi',
+        username: 'Uber SDE II'
     }
 ];
 
