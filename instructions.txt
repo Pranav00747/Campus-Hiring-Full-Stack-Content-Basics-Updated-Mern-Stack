@@ -19,8 +19,11 @@ db.createCollection("<collection-name>");
 
 For inserting records or documents
 
-db.<collection-name>.insertOne({name : 'Poorvi Hebbar', company:'Goldman Sachs');
-db.<collection-name>.insert({name : 'Nitin', company:'Google Inc');
+db.<collection-name>.insertOne({name:'Parag Agrawal', company:'Twitter CEO'});
+db.<collection-name>.insertOne({name : 'Poorvi Hebbar', company:'Goldman Sachs'});
+db.<collection-name>.insertOne({name :'Nitin Kalamkar', domain:'MBBS MD New Tork'});
+db.<collection-name>.insertOne({name:'Tuhin Mukherjee', company:'Google London'});
+db.<collection-name>.insertOne({name:'Rohit Negi', company:'Uber Hyderabad'});
 
 For display the records
 
@@ -29,6 +32,26 @@ db.<collection-name>.findAll();
 
 
 For installing mongodb in Visual Studio
+
+Also you can use in Python or Ruby
+
+def add_rec(name1, personality1):
+  mg =  pymongo.MongoClient()
+  db = mg["MongoDBEmployee"]
+  col = db[<collection-name>]
+  col.insert_one({name:name1, personality:personality1})
+  
+def add_rec(name1, personality)
+  mg = MongoClient::new 'MongoDBEmployee'
+  mg[:<collection-name>].insert_one({name:name1, personality:personality1})
+ end
+ 
+ e.g
+ add_rec('Parag Agrawal', 'Loyal')
+ add_rec('Pranav Kumar Kulkarni', 'Loyal')
+ 
+ 
+   
 
 npm install mongodb --save
 npm install moongose --save
