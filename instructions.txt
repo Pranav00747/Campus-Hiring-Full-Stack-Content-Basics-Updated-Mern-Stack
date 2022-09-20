@@ -42,7 +42,7 @@ def add_rec(name1, personality1):
   col.insert_one({name:name1, personality:personality1})
   
 def add_rec(name1, personality)
-  mg = MongoClient::new 'MongoDBEmployee'
+  mg = Mongo::Client.new 'MongoDBEmployee'
   mg[:<collection-name>].insert_one({name:name1, personality:personality1})
  end
  
